@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/employee-form-validation-with-ReactJS/static/css/main.2d080a2c.css",
-    "main.js": "/employee-form-validation-with-ReactJS/static/js/main.b0c88986.js",
+    "main.css": "/employee-form-validation-with-ReactJS/static/css/main.9715a5f8.css",
+    "main.js": "/employee-form-validation-with-ReactJS/static/js/main.47e62499.js",
     "index.html": "/employee-form-validation-with-ReactJS/index.html",
-    "main.2d080a2c.css.map": "/employee-form-validation-with-ReactJS/static/css/main.2d080a2c.css.map",
-    "main.b0c88986.js.map": "/employee-form-validation-with-ReactJS/static/js/main.b0c88986.js.map"
+    "main.9715a5f8.css.map": "/employee-form-validation-with-ReactJS/static/css/main.9715a5f8.css.map",
+    "main.47e62499.js.map": "/employee-form-validation-with-ReactJS/static/js/main.47e62499.js.map"
   },
   "entrypoints": [
-    "static/css/main.2d080a2c.css",
-    "static/js/main.b0c88986.js"
+    "static/css/main.9715a5f8.css",
+    "static/js/main.47e62499.js"
   ]
 }
