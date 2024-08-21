@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import ReactDOM from 'react-dom'
+import ReactDOM from 'react-dom/client'
 
 import './index.css'
 
@@ -125,7 +125,7 @@ const Employee = () => {
             />
             {() => {
               if (empty1) {
-                <p style={{ color: 'red' }}>Please enter your first name</p>
+                ;<p style={{ color: 'red' }}>Please enter your first name</p>
               }
             }}
           </label>
@@ -181,6 +181,7 @@ const Employee = () => {
               className={`${empty6}`}
               onInput={handleInput}
             >
+              <option value="">select..</option>
               <option value="male">Male</option>
               <option value="female">Female</option>
               <option value="other">Other</option>
@@ -224,6 +225,7 @@ const Employee = () => {
               className={`${empty10}`}
               onInput={handleInput}
             >
+              <option value="">select..</option>
               <option value="yes">Yes</option>
               <option value="no">No</option>
             </select>
@@ -236,6 +238,7 @@ const Employee = () => {
               className={`${empty11}`}
               onInput={handleInput}
             >
+              <option value="">select..</option>
               <option value="yes">Yes</option>
               <option value="no">No</option>
             </select>
@@ -255,7 +258,9 @@ const Employee = () => {
             <input type="checkbox" id="isBillable" name="isBillable" />
           </label>
         </div>
-        <button type="submit">Submit</button>
+        <div className="button">
+          <button type="submit">Submit</button>
+        </div>
       </form>
     </div>
   )
