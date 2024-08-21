@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/employee-form-validation-with-ReactJS/static/css/main.2d080a2c.css",
+    "main.js": "/employee-form-validation-with-ReactJS/static/js/main.b0c88986.js",
+    "index.html": "/employee-form-validation-with-ReactJS/index.html",
+    "main.2d080a2c.css.map": "/employee-form-validation-with-ReactJS/static/css/main.2d080a2c.css.map",
+    "main.b0c88986.js.map": "/employee-form-validation-with-ReactJS/static/js/main.b0c88986.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2d080a2c.css",
+    "static/js/main.b0c88986.js"
+  ]
+}
